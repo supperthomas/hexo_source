@@ -7,11 +7,8 @@ environment:
 install:
   - node --version
   - npm --version
-  - npm install hexo-cli -g
   - npm install
-  - npm install hexo-abbrlink --save
-  - npm install hexo-generator-sitemap --save
-  - npm install hexo-generator-baidu-sitemap --save
+  - npm install hexo
 build_script:
   - hexo clean
   - hexo g

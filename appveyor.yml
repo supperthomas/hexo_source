@@ -13,8 +13,8 @@ install:
   - npm i --save hexo-wordcount
   - npm install hexo-abbrlink --save
   - npm install hexo-generator-sitemap --save
-	- npm install hexo-generator-baidu-sitemap --save
-  
+  - npm install hexo-generator-baidu-sitemap --save
+
 build_script:
   - hexo clean
   - hexo g

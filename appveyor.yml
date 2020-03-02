@@ -8,10 +8,12 @@ install:
   - node --version
   - npm --version
   - npm install hexo-cli -g
-	- npm install
+  - npm install
+  - npm i -S hexo-prism-plugin
+  - npm i --save hexo-wordcount
   - npm install hexo-abbrlink --save
   - npm install hexo-generator-sitemap --save
-	- npm install hexo-generator-baidu-sitemap --save
+  - npm install hexo-generator-baidu-sitemap --save
 	
 build_script:
   - hexo clean

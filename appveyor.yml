@@ -5,10 +5,14 @@ environment:
     secure: B1nui0E2vwXgIloLDkGWQqEbfee4wWXcxuaznmZH/G1F2goR3TH1XTgyH1/av/fC
 
 install:
-	- node --version
-	- npm --version
+  - node --version
+  - npm --version
+  - npm install hexo-cli -g
 	- npm install
-	- npm install hexo-cli -g
+  - npm install hexo-abbrlink --save
+  - npm install hexo-generator-sitemap --save
+	- npm install hexo-generator-baidu-sitemap --save
+	
 build_script:
   - hexo clean
   - hexo g

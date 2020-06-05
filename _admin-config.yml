@@ -2,6 +2,8 @@ options:
   lineNumbers: true
   spellcheck: true
   askImageFilename: true
+  imagePath: /image
+  imagePrefix: 2020_03_29_01_
 editor:
   lineNumbers: true
   inputStyle: contenteditable
